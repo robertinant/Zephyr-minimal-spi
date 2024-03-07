@@ -1,0 +1,8 @@
+arduino_spi: &hs_lspi {
+        status = "okay";
+        spidev: spi-device@1 {
+                reg = <0x1>;
+        };
+};
+
+ 
